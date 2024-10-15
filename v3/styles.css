@@ -1,0 +1,56 @@
+body {
+          font-family: Arial, sans-serif;
+          margin: 20px;
+      }
+      
+      h1, h2 {
+          color: #333;
+      }
+      
+      .container {
+          display: flex;
+      }
+      
+      form {
+          margin-right: 20px; /* Adds space between the form and the pay slip */
+          flex: 1; /* Makes the form take up equal space */
+      }
+      
+      label {
+          display: block;
+          margin: 10px 0 5px;
+      }
+      
+      input, select {
+          padding: 8px;
+          width: 100%;
+          max-width: 300px;
+      }
+      
+      button {
+          margin-top: 10px;
+          padding: 10px;
+          background-color: #4CAF50;
+          color: white;
+          border: none;
+          cursor: pointer;
+      }
+      
+      button:hover {
+          background-color: #45a049;
+      }
+      
+      #paySlipContainer {
+          flex: 1; /* Makes the pay slip take up equal space */
+      }
+      
+      .paySlip, .payBreakup {
+          border: 1px solid #ccc;
+          padding: 10px;
+          margin: 10px 0;
+      }
+      
+      .payBreakup {
+          background-color: #f9f9f9;
+      }
+      
